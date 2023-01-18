@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameMenuActivity"
+    tools:ignore="NestedWeights"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="284dp"
+            android:layout_margin="5dp"
+            app:srcCompat="@drawable/math">
+        </ImageView>
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="275dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="Define Your Profile"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@drawable/buttons"
+            android:fontFamily="@font/roboto"
+            ></Button>
+
+
+        <Button
+            android:id="@+id/btnSinglePlayer"
+            android:layout_width="275dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="SinglePlayer"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@drawable/buttons"
+            android:fontFamily="@font/roboto"
+            ></Button>
+
+        <Button
+            android:id="@+id/btnMultiplayer"
+            android:layout_width="275dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="Multiplayer"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@drawable/buttons"
+            android:fontFamily="@font/roboto"
+            ></Button>
+
+    </LinearLayout>
+
+</LinearLayout>

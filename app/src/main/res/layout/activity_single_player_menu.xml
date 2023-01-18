@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".game.singleplayer.activites.SinglePlayerMenuActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background_singleplayer"
+    >
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="275dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttons"
+        android:text="@string/start_game"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/roboto">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnTop5"
+        android:layout_width="275dp"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/buttons"
+        android:text="@string/your_top_5_plays"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/roboto">
+
+    </Button>
+
+</LinearLayout>

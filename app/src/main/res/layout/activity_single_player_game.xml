@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/game_layout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".game.singleplayer.activites.SinglePlayerGameActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:textColor="@color/teal_700"
+            android:text="@string/math_game"
+            android:textSize="34sp"
+            android:textAlignment="center"
+            android:fontFamily="@font/roboto">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/txtLevel1"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="55dp"
+            android:textColor="@color/almost_teal_700"
+            android:textSize="34sp"
+            android:textAlignment="center"
+            android:fontFamily="@font/roboto">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtTimer1"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="55dp"
+            android:textColor="@color/almost_teal_700"
+            android:textSize="34sp"
+            android:textAlignment="center"
+            android:fontFamily="@font/roboto"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/txtScore1"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:textColor="@color/teal_700"
+            android:textSize="28sp"
+            android:textAlignment="center"
+            android:fontFamily="@font/roboto">
+        </TextView>
+
+
+    </LinearLayout>
+
+    <GridView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:id="@+id/myGrid1"
+        android:numColumns="5"
+        android:gravity="center"
+        android:columnWidth="90dp"
+        android:stretchMode="columnWidth"
+        android:choiceMode="singleChoice"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtPaused1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:textSize="20sp"
+        android:textColor="@color/almost_teal_700"
+        android:textAlignment="center"
+        android:fontFamily="@font/roboto">
+
+    </TextView>
+
+
+</LinearLayout>

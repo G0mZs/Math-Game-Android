@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="NestedWeights"
+    android:background="@drawable/background_intro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/Welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/math_game"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:fontFamily="@font/roboto"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/AMOV"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="@string/mini_description"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="310dp"
+            android:layout_height="389dp"
+            android:layout_gravity="center"
+            android:background="@null"
+            app:srcCompat="@drawable/math_menu" />
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="275dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/buttons"
+            android:fontFamily="@font/roboto"
+            android:text="Play"
+            android:textColor="@color/white"
+            android:textSize="16sp"></Button>
+
+        <Button
+            android:id="@+id/btnInfo"
+            android:layout_width="275dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="425dp"
+            android:layout_margin="7dp"
+            android:background="@drawable/buttons"
+            android:fontFamily="@font/roboto"
+            android:text="About us"
+            android:textColor="@color/white"
+            android:textSize="16sp"></Button>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".RegisterActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="@string/sign_up"
+            android:textAlignment="center"
+            android:textColor="@color/teal_700"
+            android:textSize="42sp"
+            android:fontFamily="@font/roboto">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/signup">
+
+        </ImageView>
+
+
+    <EditText
+        android:id="@+id/inputUsername"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="@drawable/editexts"
+        android:textSize="16sp"
+        android:textColor="@color/teal_700"
+        android:paddingStart="20dp"
+        android:hint="@string/username"
+        android:textColorHint="@color/teal_700"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="10dp"/>
+
+
+    <EditText
+        android:id="@+id/inputEmail"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/editexts"
+        android:textSize="16sp"
+        android:textColor="@color/teal_700"
+        android:paddingStart="20dp"
+        android:hint="@string/email"
+        android:textColorHint="@color/teal_700"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="10dp"/>
+
+    <EditText
+        android:id="@+id/inputPassword"
+        android:layout_width="275dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:background="@drawable/editexts"
+        android:textSize="16sp"
+        android:textColor="@color/teal_700"
+        android:paddingStart="20dp"
+        android:hint="@string/hint"
+        android:textColorHint="@color/teal_700"
+        android:drawableLeft="@drawable/ic_security"
+        android:drawablePadding="10dp"/>
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="275dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Sign Up"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@drawable/buttons"
+        android:fontFamily="@font/roboto"
+        ></Button>
+
+    <TextView
+        android:id="@+id/textLoginInstead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/has_account"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="14sp"
+        android:fontFamily="@font/roboto"
+        android:clickable="true"
+        android:onClick="onClickLogin">
+    </TextView>
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "979611910414",
+    "project_id": "tpamov-560a5",
+    "storage_bucket": "tpamov-560a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979611910414:android:bc9b41b61791657132175f",
+        "android_client_info": {
+          "package_name": "pt.isec.a21280210_a21280183_a21280330.tp_amov"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979611910414-9a5lhaaeuqcv490sbqpuhgq5md3ot13p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pt.isec.a21280210_a21280183_a21280330.tp_amov",
+            "certificate_hash": "7426b7d4421deba6fa079fc2e3968244457a5af2"
+          }
+        },
+        {
+          "client_id": "979611910414-he9r5d0e7ak3o2nrmev36hehaluoaenj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxhZzBzrCF-V6RtrYrgteKoIA37HT-9mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979611910414-he9r5d0e7ak3o2nrmev36hehaluoaenj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
